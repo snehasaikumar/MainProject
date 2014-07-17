@@ -11,11 +11,11 @@ namespace MainProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("I know it works... ;)");
+            Console.WriteLine("Hellooooo");
 
-            var helper = new Helper();
-            Console.WriteLine(helper.GetStatus());
-
+            var calculate = new Calculate();
+            Console.WriteLine("Adding numbers 1728 and 1: " + calculate.Add(1728, 1));
+            Console.WriteLine("Subtracting numbers 1730 and 1: " + calculate.Subtract(1730, 1));
             Console.ReadLine();
 
         }
