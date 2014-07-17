@@ -18,7 +18,6 @@ TestResults
 [Rr]elease/
 Artifacts/
 x64/
-obj/
 *_i.c
 *_p.c
 *.ilk
